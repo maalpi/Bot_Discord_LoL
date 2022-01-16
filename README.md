@@ -1,4 +1,4 @@
-# BotDiscordLol
+# Bot Discord Lol
 
 - Bot para discord com o proposito de mostrar os PDL e em que rank um certo jogador se encontra no jogo league of legends.
 

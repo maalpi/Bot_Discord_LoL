@@ -86,7 +86,7 @@ Mapbot.on('ready', () => {
 
 Mapbot.on('message', message => {
 let responseObject = {
-    "?ta on?" : "Pai ta on!!",
+    "?ta on?" : "ta on!!",
     "?twitter" : "https://twitter.com/Maaalpe",
     "?lol" : "meu nick no lol é Mapeal"
 };
@@ -121,7 +121,7 @@ else if (msg.content.toLowerCase().startsWith("?rank ")) {
 else if (msg.content.toLowerCase().startsWith("?add ")){
       let corno = msg.content.toLowerCase().replace('?add ', '');
       listadecornos.push(corno);
-      msg.channel.send('Corno adicionado com sucesso!!!');
+      msg.channel.send('jogador adicionado com sucesso!!!');
       console.log(listadecornos);
 
 }
@@ -130,7 +130,7 @@ else if (msg.content.toLowerCase().startsWith("?remove ")){
       var indice = listadecornos.indexOf(cornoFora);
 
       if (indice == 0){
-            msg.channel.send('Corno nao adicionado a lista.');
+            msg.channel.send('jogador nao adicionado a lista.');
             
       }else{
             while(indice >=0){
